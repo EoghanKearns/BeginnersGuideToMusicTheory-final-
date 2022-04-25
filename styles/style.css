@@ -1,0 +1,179 @@
+body {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: whitesmoke;
+}
+header {
+    border-radius: 5px;
+    background-image: url(../images/instrument-g56fa52d70_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80px;
+    padding: 5px;
+}
+.logo {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: solid 2px rgb(153, 0, 191);
+    border-radius: 250px;
+    margin-left: 5px;
+}
+nav {
+    background-color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: white;
+    display: contents;
+    padding: 15px;
+    border-radius: 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#title {
+    color: black;
+    text-align: center;
+    text-indent: 10px;
+    float: left;
+    margin-left: 290px;
+}
+#piano {
+    float: right;
+    height: 250px;
+    width: 500px;
+    margin-top: 80px;
+    margin-right: 35px;
+    border-radius: 5px;
+}
+.musicTheoryIntro {
+    float: left;
+    padding: 5px;
+    margin-left: 50px;
+}
+.videoContent1 {
+    float: left;
+    width: 45%;
+    max-height: 450px;
+    min-height: 450px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.videoContent2 {
+    float: right;
+    width: 45%;
+    max-height: 450px;
+    min-height: 450px;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+aside {
+    border: 10px solid black;
+    float: right;
+    width: 18%;
+    margin-right: 50px;
+    padding-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+aside ul {
+    padding-left: 60px;
+}
+.musicTheoryBasics {
+    margin-right: 700px;
+    margin-left: 50px;
+    padding: 5px;
+}
+article {
+    margin-right: 400px;
+    margin-left: 100px;
+
+}
+.pianoPlayer {
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+table {
+    width:90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 2%;
+}
+.mic {
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+#mainContent {
+    margin-bottom: 200px;
+}
+ol {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.makingOwnMusic{
+    margin-right: 300px;
+    margin-left: 50px;
+    padding: 5px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: rgb(153, 0, 191);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: rgb(124, 7, 154);
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .map {
+      margin-left: 300px;
+  }

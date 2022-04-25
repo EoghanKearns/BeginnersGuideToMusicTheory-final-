@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Author Test Surname
+Date created March 2022
+Purpose : College project
+Modifications : 
+-->
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="description" content="Home Page">
+      <meta name="keywords" content="Music,Music Theory,What is Music Theory">
+      <title> Beginners Guide to Music Theory </title>
+      <link rel="stylesheet" type="text/css" href="styles/style.css">
+      <link rel="icon" href="images/favicon-16x16.png" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo">
+            <h1 id="title"> Beginners Guide to Music Theory </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="basics.html">Basics of Music Theory</a></li>
+                <li> <a href="makingmusic.html">Making Your Own Music</a></li>
+                <li id="active"> <a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <main id="mainContent">
+            <h2>About Us</h2>
+            <h3 style="color:rgb(153, 0, 191);">Where We are Located</h3>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37280.187816094425!2d-8.515749420593869!3d54.26836987662028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee9b5677caee9%3A0xa00c7a997317380!2sSligo!5e0!3m2!1sen!2sie!4v1650848933720!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3 style="color:rgb(153, 0, 191);">Contact Us</h3>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </main>
+        <footer>
+            <center><p>&copy; 2022 (this is a college project)</p></center>
+
+        </footer>
+
+    </body>
+     
+</html>
